@@ -44,7 +44,8 @@
                         break;
 
 
-                    //TO DO
+                    //opraih go
+                    //gotovo
                     default:
                         break;
                 }
