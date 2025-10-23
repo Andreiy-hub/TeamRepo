@@ -47,16 +47,13 @@
                             nums.RemoveAt(removeIndex);
                         }
                         break;
-                    
-
-<<<<<<< HEAD
 
                     //opraih go
                     //gotovo
-=======
+
                     //TO DOdfghjkl
                     //xcvbjkl
->>>>>>> ea2c16ebccd4ae6f3635c167dc94ef4393a1d8d8
+
                     default:
                         break;
                 }
