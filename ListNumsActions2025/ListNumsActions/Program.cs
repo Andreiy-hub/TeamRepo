@@ -26,6 +26,10 @@
                         
                         //TODO
                         break;
+                    case "del":
+                        int toDelete = int.Parse(cmd[1]);
+                        nums.Remove(toDelete);
+                        break;
 
 
                     //TO DO
