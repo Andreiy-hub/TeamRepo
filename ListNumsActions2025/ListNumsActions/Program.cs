@@ -23,7 +23,12 @@
                         Console.WriteLine(string.Join(" ", nums));
                         break;
                     case "contains":
-                        
+                        num = int.Parse(cmd[1]);
+                        if(nums.Contains(num))
+                            Console.WriteLine("Yes");
+                        else
+                            Console.WriteLine("No");
+                        break;
                         //TODO
                         break;
                     case "del":
