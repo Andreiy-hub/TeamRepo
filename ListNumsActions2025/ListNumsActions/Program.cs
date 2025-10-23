@@ -35,7 +35,11 @@
                         int toDelete = int.Parse(cmd[1]);
                         nums.Remove(toDelete);
                         break;
-
+                     case "add":
+                        int numOne = int.Parse(cmd[1]);
+                        int numSecond = int.Parse(cmd[2]);
+                        nums.Add(numOne+numSecond);
+                        break;
 
                     //TO DO
                     default:
